@@ -10,6 +10,8 @@
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 #container{
     display: flex;
@@ -26,7 +28,7 @@
     margin-top: 4rem;
 }
 .cartão_conteúdo h3{
-    background-color: crimson;
+    background-color: rgb(219, 37, 159);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
