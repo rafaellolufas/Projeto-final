@@ -6,7 +6,7 @@
 .body{
     font-family: Bai Jamjuree;
 }
-.cartão_conteúdo{
+.cartao__conteudo{
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
@@ -17,17 +17,17 @@
     display: flex;
     flex-wrap: wrap;
 }
-.cartão {
+.cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
-.cartão_conteúdo p{
-    padding: 4rem;
-    margin-top: 4rem;
+.cartao__conteudo p{
+    padding: 3rem;
+    margin-top: 3rem;
 }
-.cartão_conteúdo h3{
+.cartao__conteudo h3{
     background-color: rgb(219, 37, 159);
     text-align: left;
     padding: 0.5rem;
@@ -36,12 +36,12 @@
     border-radius: 0.6rem;
     font-size: 1vw;
 }
-.footer p{
+footer p{
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
-.footer {
+footer {
     background-color: #000000;
     color: white;
     position: fixed;
